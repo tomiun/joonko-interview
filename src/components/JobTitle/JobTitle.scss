@@ -1,0 +1,65 @@
+.job {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 6px;
+  width: 70%;
+  padding: 22px 55px 22px 51px;
+
+  .job-title {
+    .job-details {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .job-open-content {
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+
+    .job-details-location-department {
+      display: flex;
+      align-items: baseline;
+      gap: 19px;
+    }
+
+    .job-name {
+      // font-family: "Muli";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      margin-right: 10px;
+
+      color: #010a60;
+    }
+
+    .job-location {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .job-department {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  }
+
+  .job-apply {
+    background: #7b3ff2;
+    border-radius: 6px;
+    padding: 9px 20px;
+    align-self: center;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+  }
+
+  .job-content {
+  }
+}
